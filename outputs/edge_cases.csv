@@ -1,0 +1,11 @@
+customer_id,segment,edge_case_type,R,F,M,recency_days,frequency,ticket_count,return_rate,session_count,discount_usage_rate,churn_label
+CUST00020,At-Risk High Value,High Value + Churned,1.0,1.0,5.0,368,3,1.0,0.0,1,1.0,1
+CUST00025,High Value Unhappy,High Value + Churned,1.0,2.0,5.0,165,7,3.0,0.0,1,1.0,1
+CUST00051,High Value Unhappy,High Value + Churned,1.0,1.0,5.0,210,4,2.0,0.0,1,1.0,1
+CUST00014,Loyal Customers,Heavy Discounter but Frequent,3.0,4.0,5.0,51,11,2.0,0.0,1,1.0,0
+CUST00088,At-Risk High Value,Heavy Discounter but Frequent,2.0,4.0,5.0,98,12,1.0,0.0,1,1.0,1
+CUST00034,High Value Unhappy,High Complaints but Retained,3.0,2.0,4.0,50,6,3.0,0.0,1,1.0,0
+CUST00042,High Value Unhappy,High Complaints but Retained,2.0,3.0,5.0,87,9,6.0,0.2222222222222222,1,1.0,0
+CUST00251,New Customers,New Customer + High Returns,4.0,1.0,2.0,41,1,1.0,1.0,1,1.0,1
+CUST00310,New Customers,New Customer + High Returns,4.0,1.0,1.0,22,1,1.0,1.0,1,1.0,0
+CUST00001,High Value Unhappy,Mixed Signals,2.0,2.0,4.0,107,6,2.0,0.16666666666666666,1,1.0,1

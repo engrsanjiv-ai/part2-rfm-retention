@@ -1,0 +1,8 @@
+segment,count,median_recency_days,median_frequency,median_monetary,churn_rate,avg_tickets,avg_return_rate,avg_sessions,avg_discount_rate
+Dormant,873,79.0,2.0,1252.03,56.4%,0.47995418098510884,5.9%,1.0,99.0%
+New Customers,460,20.0,1.0,806.335,22.6%,0.30869565217391304,7.7%,1.0,97.6%
+At-Risk High Value,437,147.0,4.0,2579.22,78.0%,0.5812356979405034,4.3%,1.0,97.8%
+High Value Unhappy,391,57.0,6.0,4444.3,39.4%,2.3810741687979537,12.8%,1.0,98.4%
+Promising,225,33.0,6.0,4265.33,14.2%,0.6222222222222222,2.5%,1.0,98.5%
+Loyal Customers,9,52.0,11.0,8130.16,33.3%,3.5555555555555554,9.8%,1.0,100.0%
+Champions,5,19.0,11.0,9241.95,20.0%,0.6,1.8%,1.0,98.2%
