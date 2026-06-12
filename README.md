@@ -48,16 +48,24 @@ part2-rfm-retention/
 
 ## Setup Instructions
 
+**1. Clone & Create Virtual Environment**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/engrsanjiv-ai/part2-rfm-retention.git
 cd part2-rfm-retention
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+```
+
+**2. Activate Virtual Environment**
+- **Windows**: `venv\Scripts\activate`
+- **Mac/Linux**: `source venv/bin/activate`
+
+**3. Install Dependencies & Run**
+```bash
 pip install -r requirements.txt
 jupyter notebook rfm_segmentation.ipynb
 ```
 
-Run all cells top to bottom. `segments.csv` and all outputs are saved automatically.
+Run all cells from top to bottom. `segments.csv` and all outputs are saved automatically.
 
 ---
 
@@ -92,4 +100,4 @@ Run all cells top to bottom. `segments.csv` and all outputs are saved automatica
 - All paths are relative — no hardcoded local paths
 - Snapshot date used for recency calculation to prevent leakage
 - RFM scores are quintile-ranked (1–5 scale)
-- Python 3.9+ recommended
+- Python 3.9 recommended
