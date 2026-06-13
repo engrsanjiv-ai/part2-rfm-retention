@@ -35,7 +35,7 @@ Customers with the highest recency (R≥4), frequency (F≥4), and monetary (M�
 - Monetary: median ₹9,242 lifetime spend (top tier)
 - Ticket count: 0.6 on average (minimal support friction)
 - Return rate: 1.8% (very low)
-- Session count: high engagement
+- Session count: 1.0 Avg (session signal is flat across all segments )
 - Dataset: 5 customers
 
 ### Churn Rate
@@ -94,7 +94,7 @@ Customers who were previously strong on frequency or monetary value (F≥3 or M�
 - Monetary: median ₹2,579 lifetime spend
 - Last order typically 4.5–5 months ago
 - Support tickets: 0.58 on average
-- Session count: very low (1.0 average)
+- Session count: 1.0 average (identical across all segment)
 - Dataset: 437 customers (18.2% of total)
 
 ### Churn Rate

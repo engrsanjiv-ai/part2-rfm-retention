@@ -3,7 +3,7 @@
 ## D2C Customer Churn Intelligence — Capstone Project
 
 ### Overview
-This repository builds a multi-signal customer segmentation system using RFM (Recency, Frequency, Monetary) scores enriched with behavioural, support, and campaign signals. Each segment receives a tailored retention strategy. A manual review section covers 10+ edge-case customers where the retention decision is non-obvious.
+This repository builds a multi-signal customer segmentation system using RFM (Recency, Frequency, Monetary) scores enriched with behavioural, support, and campaign signals. Each segment receives a tailored retention strategy. A manual review section covers 10 edge-case customers where the retention decision is non-obvious.
 
 ---
 
@@ -77,7 +77,6 @@ Run all cells from top to bottom. `segments.csv` and all outputs are saved autom
 | Loyal Customers | High F + High M, moderate R |
 | Promising | Recent first/second order, moderate M |
 | At-Risk High Value | Previously high M/F, now dropping recency |
-| Discount Seekers | High F but low M, high discount usage |
 | High Value Unhappy | High M but high ticket count / low CSAT |
 | Dormant | Low R (60+ days), low F |
 | New Customers | Joined recently, only 1–2 orders |

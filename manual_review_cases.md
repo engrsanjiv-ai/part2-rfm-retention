@@ -21,7 +21,7 @@
 **Customer Profile:**
 - R: 1 (368 days since last order — over a year)
 - F: 1 (only 3 orders total)
-- M: 5 (top-tier spender: $4,487.95 lifetime, $1,495.98 avg order value)
+- M: 5 (top-tier spender: 4,487.95 lifetime, 1,495.98 avg order value)
 - Ticket count: 1
 - Return rate: 0%
 - Sessions: 1
@@ -33,7 +33,7 @@
 This customer is genuinely valuable — top-tier spender with an exceptional average order value. However, they haven't ordered in over a year (368 days) and have minimal engagement (only 3 orders despite high spend). The model correctly identifies them as churned. The question is: should we invest in rescue given their historical LTV?
 
 **Decision: Yes — Priority rescue.**  
-This customer's high average order value ($1,495.98) justifies a personalized win-back campaign. The absence of support issues suggests the churn was not driven by a service failure. Recommended action: personalized "we miss you" email with a product recommendation based on their purchase history and highest-value category — no discount on first touch. If no response in 7 days, follow with a modest incentive (free shipping or loyalty credit, not a blanket discount). Track their re-engagement carefully as a high-value recovery target.
+This customer's high average order value (1,495.98) justifies a personalized win-back campaign. The absence of support issues suggests the churn was not driven by a service failure. Recommended action: personalized "we miss you" email with a product recommendation based on their purchase history and highest-value category — no discount on first touch. If no response in 7 days, follow with a modest incentive (free shipping or loyalty credit, not a blanket discount). Track their re-engagement carefully as a high-value recovery target.
 
 ---
 
@@ -45,7 +45,7 @@ This customer's high average order value ($1,495.98) justifies a personalized wi
 **Customer Profile:**
 - R: 1 (165 days since last order)
 - F: 2 (7 orders total)
-- M: 5 (high spender: $4,868.86 lifetime, $695.55 avg order)
+- M: 5 (high spender: 4,868.86 lifetime, 695.55 avg order)
 - Ticket count: 3 (all resolved)
 - Return rate: 0%
 - Sessions: 1
@@ -69,7 +69,7 @@ Review the content of the 3 support tickets to identify the root cause. If ticke
 **Customer Profile:**
 - R: 1 (210 days since last order)
 - F: 1 (4 orders total)
-- M: 5 (top-tier spender: $4,444.30 lifetime, $1,111.08 avg order)
+- M: 5 (top-tier spender: 4,444.30 lifetime, 1,111.08 avg order)
 - Ticket count: 2
 - Return rate: 0%
 - Sessions: 1
@@ -81,7 +81,7 @@ Review the content of the 3 support tickets to identify the root cause. If ticke
 No returns and only 2 support tickets, yet this high-value customer has gone dormant (210 days). Unlike Case 1-A's single ticket, this customer has multiple support interactions which might signal frustration despite no explicit churn trigger visible in the data.
 
 **Decision: Direct outreach to understand root cause.**  
-Call or email this customer directly (not a broadcast campaign). Ask: "We noticed you haven't placed an order recently — is there something we can help with or improve?" This is a listening mission before a selling mission. Their high AOV ($1,111) makes this high-touch outreach justified. Based on their feedback, either resolve an underlying issue or rebuild the relationship with a personalized offer.
+Call or email this customer directly (not a broadcast campaign). Ask: "We noticed you haven't placed an order recently — is there something we can help with or improve?" This is a listening mission before a selling mission. Their high AOV (1,111) makes this high-touch outreach justified. Based on their feedback, either resolve an underlying issue or rebuild the relationship with a personalized offer.
 
 ---
 
@@ -95,7 +95,7 @@ Call or email this customer directly (not a broadcast campaign). Ask: "We notice
 **Customer Profile:**
 - R: 3 (51 days since last order)
 - F: 4 (11 orders total)
-- M: 5 (high spend: $8,130.16, $739.11 avg order)
+- M: 5 (high spend: 8,130.16, 739.11 avg order)
 - Discount usage rate: 100% (every order heavily discounted)
 - Ticket count: 2
 - Return rate: 0%
@@ -120,7 +120,7 @@ Do NOT cut off discounts abruptly — this customer may churn if we do. Instead:
 **Customer Profile:**
 - R: 2 (98 days since last order — recency declining)
 - F: 4 (12 orders total — highest frequency in dataset)
-- M: 5 (good spender: $6,774.50, $564.54 avg)
+- M: 5 (good spender: 6,774.50, 564.54 avg)
 - Discount usage rate: 100% (all discounted)
 - Sessions: 1
 - Ticket count: 1
@@ -146,7 +146,7 @@ Sending a bigger discount will accelerate the wrong signal. Instead: (1) Reach o
 **Customer Profile:**
 - R: 3 (50 days since last order)
 - F: 2 (6 orders total)
-- M: 4 (solid spender: $3,353.01, $558.84 avg)
+- M: 4 (solid spender: 3,353.01, 558.84 avg)
 - Ticket count: 3 (all resolved — unresolved: 0)
 - Return rate: 0%
 - Sessions: 1
@@ -170,7 +170,7 @@ This customer is worth keeping happy. They're complainers in the best sense — 
 **Customer Profile:**
 - R: 2 (87 days since last order)
 - F: 3 (9 orders total)
-- M: 5 (top spender: $7,523.74, $835.97 avg)
+- M: 5 (top spender: 7,523.74, 835.97 avg)
 - Ticket count: 6 (highest support load in dataset)
 - Return rate: 22.2% (22.2% of orders returned)
 - Sessions: 1
@@ -194,9 +194,9 @@ Don't assume they're "just complainers" like Case 3-A. The 22% return rate combi
 **Edge Case Type:** Very new customer with complete product failure (100% return rate)
 
 **Customer Profile:**
-- R: 4 (41 days since signup)
+- R: 4 (41 days since last order)
 - F: 1 (only 1 order)
-- M: 2 (low spend: $966.73)
+- M: 2 (low spend: 966.73)
 - Days since signup: 41
 - Return rate: 100% (returned 1 of 1 orders)
 - Ticket count: 1
@@ -209,7 +209,7 @@ Don't assume they're "just complainers" like Case 3-A. The 22% return rate combi
 A 100% return rate in the first month is critical — this customer received one order and rejected it entirely. Yet they're only 41 days into their lifecycle. This is either a critical product-fit issue or a fulfillment/quality error. We don't know which without examining the return reason.
 
 **Decision: Rapid product-fit investigation + empathetic recovery.**  
-(1) Review the return reason urgently: Was it wrong product, damaged in transit, sizing mismatch, or wrong item shipped? (2) If it was a fulfillment error, send immediate apology + replacement. (3) If it was product mismatch, ask a 3-question survey: "What didn't work? What would have been better? Can we recommend an alternative?" (4) Only AFTER understanding the issue, offer recovery: a replacement recommendation or $X store credit (not a discount code on their first failed product). This customer is salvageable if we show we care about getting it right.
+(1) Review the return reason urgently: Was it wrong product, damaged in transit, sizing mismatch, or wrong item shipped? (2) If it was a fulfillment error, send immediate apology + replacement. (3) If it was product mismatch, ask a 3-question survey: "What didn't work? What would have been better? Can we recommend an alternative?" (4) Only AFTER understanding the issue, offer recovery: a replacement recommendation or X store credit (not a discount code on their first failed product). This customer is salvageable if we show we care about getting it right.
 
 ---
 
@@ -219,9 +219,9 @@ A 100% return rate in the first month is critical — this customer received one
 **Edge Case Type:** Very new customer, 100% return rate, but NOT yet churned
 
 **Customer Profile:**
-- R: 4 (22 days since signup)
+- R: 4 (22 days since last order)
 - F: 1 (only 1 order)
-- M: 1 (very low spend: $578.27)
+- M: 1 (very low spend: 578.27)
 - Days since signup: 22
 - Return rate: 100% (returned 1 of 1)
 - Ticket count: 1
@@ -248,11 +248,11 @@ Similar to Case 4-A but even newer (22 days vs 41). This customer returned their
 **Customer Profile:**
 - R: 2 (107 days since last order)
 - F: 2 (6 orders total)
-- M: 4 (mid-high spender: $2,955.57, $492.60 avg)
+- M: 4 (mid-high spender: 2,955.57, 492.60 avg)
 - Sessions: 1
 - Ticket count: 2
 - Return rate: 16.7% (1 of 6 orders returned)
-- Discount usage: 16.7% (minimal discount dependency)
+- Discount usage: 100% (fully discount-dependent -every order placed with discount)
 - Churn label: 1 (churned)
 
 **Assigned Segment:** High Value Unhappy
