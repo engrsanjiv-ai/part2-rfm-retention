@@ -7,6 +7,16 @@ This repository builds a multi-signal customer segmentation system using RFM (Re
 
 ---
 
+## Table of Contents
+
+- [Repository Structure](#repository-structure)
+- [Dataset](#dataset)
+- [Setup Instructions](#setup-instructions)
+- [Segments Defined](#segments-defined)
+- [Key Outputs](#key-outputs)
+- [Notes](#notes)
+
+
 ## Repository Structure
 
 ```
@@ -46,7 +56,7 @@ part2-rfm-retention/
 
 ---
 
-## Setup Instructions
+## Setup Instructions (Tested on Python 3.11.9)
 
 **1. Clone & Create Virtual Environment**
 ```bash
@@ -99,4 +109,4 @@ Run all cells from top to bottom. `segments.csv` and all outputs are saved autom
 - All paths are relative — no hardcoded local paths
 - Snapshot date used for recency calculation to prevent leakage
 - RFM scores are quintile-ranked (1–5 scale)
-- Python 3.9 recommended
+- Python 3.11.9 recommended 
